@@ -57,6 +57,7 @@ var STATE_PARAMETER_LOCATION = {
  * @return {Service_} The service object.
  */
 function createService(serviceName) {
+  Logger.log("creating service");
   return new Service_(serviceName);
 }
 
